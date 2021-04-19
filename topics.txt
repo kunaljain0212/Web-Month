@@ -34,12 +34,10 @@ Examples of semantic elements: <form>, <table>, and <article> - Clearly defines 
 
 
 CSS
-       
-       
 
-
-	pro;
-
+Selector {
+	property: value;
+}
 
 External
 <link rel="stylesheet type="text/css" href="style.css">
@@ -53,7 +51,6 @@ Internal
 
 Inline
 <header style="background-color: green;">
-
 
 Tools:
 Chrome Inspector
