@@ -65,3 +65,17 @@ font-weight
 font-size
 font-family
 cursor
+
+
+.class
+#id
+* (all elements)
+element
+element, element
+element element
+element > element
+element + element
+v:hover
+:last-child
+:first-child
+!important (not recommended)

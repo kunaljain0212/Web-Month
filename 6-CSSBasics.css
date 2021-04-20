@@ -5,6 +5,8 @@ body {
 div {
   background: yellow;
   color: red;
+  width: 50%;
+  height: 200px;
   /* color: rgb(99, 84, 157); */
   /* color: red; */
   /* text-align: center; */
