@@ -1,4 +1,4 @@
-/* .heading {
+.heading {
   text-align: center;
   font-weight: normal;
   color: rgb(222, 127, 127);
@@ -9,4 +9,7 @@
   z-index: 1000;
   font-family: "Bangers", cursive;
   text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
-} */
+}
+.red {
+  background-color: red;
+}
