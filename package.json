@@ -1,0 +1,23 @@
+{
+  "name": "Web-Month",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd code && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunaljain0212/Web-Month/issues"
+  },
+  "homepage": "https://github.com/kunaljain0212/Web-Month#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
