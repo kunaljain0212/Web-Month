@@ -1,13 +1,15 @@
 const express = require("express");
-const path = require('path'); 
-const logger = require("./middleware");
+const path = require("path");
+const { secondLogger, logger } = require("./middleware");
 
 const app = express();
 
-// app.use(logger);
-// app.use(express.static("public"));
+app.use(logger);
+app.use(secondLogger);
+app.use(express.static("public"));
 // app.use('/static', express.static('public'))
-// app.use('/static', express.static(path.join(__dirname, 'public')))
+// console.log(path.join(__dirname));
+app.use("/static", express.static(path.join(__dirname, "public")));
 
 app.get("/", (req, res) => {
   console.log(req.url);
